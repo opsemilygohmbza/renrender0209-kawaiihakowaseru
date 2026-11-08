@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: kawaiihakowaseru
-    runtime: static
-    plan: free
-    autoDeployTrigger: commit
-
-    buildCommand: echo "no build"
-    staticPublishPath: ./www
